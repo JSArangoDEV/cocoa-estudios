@@ -1,0 +1,45 @@
+<div className="responsive">
+            <img src={ImageNavResponsive} alt="Responsive" onClick={responsiveMenu()} />
+          </div>
+
+import ImageNavResponsive from '../../assets/images/sections/navigation/responsive.svg'
+
+/* - - - - - - - */
+
+@media (max-width: 890px) {
+  nav .logo img {
+    width: 150px;
+  }
+
+  nav .buttons ul {
+    display: none;
+  }
+
+  nav .buttons .responsive {
+    display: flex;
+  }
+
+  .s3 {
+    display: none;
+  }
+}
+
+nav .buttons .responsive {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .buttons .responsive img {
+  padding: 16px;
+}
+
+nav .buttons ul {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 48px;
+}
