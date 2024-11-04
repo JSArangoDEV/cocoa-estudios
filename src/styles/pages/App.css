@@ -139,25 +139,31 @@ nav .buttons ul li a:hover::after {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  gap: 35px;
 }
 
 .s1 .text .title {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   color: var(--c-0-light);
 
   text-align: center;
 }
 
-.s1 .text .subtitle {
+.s1 .text img {
+  width: 256px;
+}
+
+/* .s1 .text .subtitle {
   font-size: 20px;
   font-weight: 300;
   color: var(--c-0-light);
 
   text-align: center;
-}
+} */
 
-.s1 button {
+/* .s1 button {
   background: var(--p-0);
   color: var(--c-0-light);
   padding: 16px;
@@ -175,7 +181,7 @@ nav .buttons ul li a:hover::after {
 .s1 button:hover {
   background: var(--c-0-light);
   color: var(--c-0-dark);
-}
+} */
 
 .s2 {
   display: flex;
@@ -266,6 +272,10 @@ nav .buttons ul li a:hover::after {
   text-align: center;
 
   width: 100%;
+}
+
+.s3 p .bold {
+  font-weight: 700;
 }
 
 .s3 .users {

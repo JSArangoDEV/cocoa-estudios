@@ -56,13 +56,10 @@ function App() {
       </nav>
       <section className="s1">
         <div className="text">
-          <span className="title">Aprende mientras juegas videojuegos</span>
-          <span className="subtitle">
-            Juegos educativos atractivos que hacen que la salud sea divertida y
-            accesible
-          </span>
+          <span className="title">"Jugando construimos un futuro donde aprender es para todos"</span>
+          {/* <span className="subtitle">Empresa de desarrollo de videojuegos educativos</span> */}
         </div>
-        <button>Explora nuestro contenido</button>
+        {/* <button>Explora nuestro contenido</button> */}
       </section>
       <section className="s2" id='s2'>
         <span className="title">Juegos Destacados</span>
@@ -80,7 +77,7 @@ function App() {
           colegio secundario como estudiantes de 5to año del Colegio ISEP, ha
           llegado el momento de crear nuestro proyecto de Tesis. Siete amigos
           formamos un grupo y pusimos manos a la obra en el proyecto. Así nació
-          <span className="bold">Cocoa Estudios</span>, una empresa de desarrollo de videojuegos educativos y
+          <span className="bold"> Cocoa Estudios</span>, una empresa de desarrollo de videojuegos educativos y
           comprometida con aportar. Somos una organización comprometida con la
           ayuda social, nos preocupa que en la sociedad actual existe mucha
           desinformación acerca de varios aspectos sociales, tales como los
